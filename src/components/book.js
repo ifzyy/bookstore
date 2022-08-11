@@ -1,13 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function book() {
   return (
     <div>
-      <div className= "container">
-        
-      </div>
+      <div className="container" />
     </div>
-  )
+  );
 }
 
-export default book
+export default book;
