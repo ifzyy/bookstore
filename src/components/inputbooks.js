@@ -30,6 +30,8 @@ function InputBooks() {
           name="author"
           onChange={handleChange}
         />
+        <button type="submit" className="submitbutton">Add</button>
+
       </form>
       <h5>
         Title:
