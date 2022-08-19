@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Books from './components/books';
 import Categories from './components/categories';
 import Nav from './components/navigation';
+import BookList from './components/Booklist';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Nav />
         <Routes>
-          <Route path="/" element={<Books />} />
+          <Route path="/" element={<BookList />} />
           <Route path="/categories" element={<Categories />} />
         </Routes>
       </Router>
